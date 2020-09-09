@@ -1,4 +1,10 @@
-         ,position,original_aa,new_aa,new_codon,new_dna_seq,new_aa_seq
-0,1,,,,aaacccggtctcaaa,KPGLK
-1,1,,,,aaacccggtctcgtctcaaaa,KPGLVSK
-2,1,,,,aaacccggtctcaaacgtctcaaagaagac,KPGLKRLKED
+         ,position,original_aa,new_aa,new_codon,new_dna_seq,new_aa_seq,Notes
+0,1,,,,aaacccggtctcaaa,KPGLK,1 RE site
+1,1,,,,aaacccggtctcgtctcaaaa,KPGLVSK,2 overlapping RE sires
+2,1,,,,aaacccggtctcaaacgtctcaaagaagac,KPGLKRLKED,3 unique RE sites
+3,1,,,,AAACCCGGTCTCAAA,KPGLK,Test 1 but upper
+4,1,,,,AAACCCGGTCTCGTCTCAAAA,KPGLVSK,Test 2 but upper
+5,1,,,,AAACCCGGTCTCAAACGTCTCAAAGAAGAC,KPGLKRLKED,Test 3 but upper
+6,1,,,,ggtctcaaa,GLK,RE at start
+7,1,,,,aaaacccggtctcgtctc,KTRSRL,RE at end
+8,1,,,,gtctcaaaa,VSK,RE formed by joining with pre
