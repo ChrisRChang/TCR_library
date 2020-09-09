@@ -1,0 +1,4 @@
+         ,position,original_aa,new_aa,new_codon,new_dna_seq,new_aa_seq
+0,1,,,,aaacccggtctcaaa,KPGLK
+1,1,,,,aaacccggtctcgtctcaaaa,KPGLVSK
+2,1,,,,aaacccggtctcaaacgtctcaaagaagac,KPGLKRLKED
